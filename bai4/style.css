@@ -1,0 +1,10 @@
+@charset "utf-8";
+.btb{
+    margin:5px 5px;
+    text-align: center;
+    width:130px;
+    background-color:grey;
+    color:orange;
+    float:left;
+    cursor: pointer;
+}

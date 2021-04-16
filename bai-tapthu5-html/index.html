@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 5 về Jquery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+	<div class="main">
+		
+		<div class="row1">
+			<div class="o1 sk2"></div>
+			<div class="o1 trang"></div>
+			<div class="o1 sk2"></div>
+			<div class="o1 trang"></div>
+			<div class="o1 sk2"></div>
+			<div class="o1 trang"></div>
+			<div class="o1 sk2"></div>
+			<div class="o1 trang"></div>
+			<div class="o1 sk2"></div>
+
+		</div><!-- end row1 -->
+
+		<div class="row2">
+			<div class="o2">
+				<p>Xin chào học viên</p>
+				<p>Xin chào cựu học viên</p>
+			</div>
+			<div class="o3 trang">
+				<p>Xin chào cha mẹ học viên</p>
+				<p>Xin chào chú bác học viên</p>
+			</div>
+			<div class="o4">
+				<a href="#"> Xin chào anh chị học viên</a>
+				<a href="#"> Xin chào cô dì học viên</a>
+			</div>
+			
+
+		</div>   <!-- end row2 -->
+
+		<div class="row3">
+			<div class="o1 trang border-right border-top border-left"></div>
+			<div class="o1dacbiet kem "></div>
+			<div class="o1caodacbiet trang border-right"></div>
+			<div class="o1caodacbiet kem border-right"></div>
+			<div class="o1caodacbiet kem border-right"></div>
+			<div class="o1caodacbiet trang border-right"></div>
+			<div class="o1 kem border-top border-right" id="o9"></div>
+			<div class="o1 kem border-top border-right"></div>
+			<div class="o1daibiet kem border-top border-right"></div>
+
+		</div><!-- end row3 -->
+
+		<div class="row4">
+			<div id="chucmung" class="o4 border-left border-right">
+				<!-- <p>Chúc mừng anh chị đã nhập học</p> -->
+			</div>
+			
+
+		</div><!-- end row4 -->
+		<!-- <div class="box5">
+			<div class="row6">
+				
+			</div>
+		</div> -->
+
+		
+			<div class="row5">
+				<div class="hang1 border-top border-left border-right border-bottom ">
+					<input type="radio" class="gender" name="gender" value="trai" checked/>Trai
+					<br>
+					<input type="radio" class="gender" name="gender" value="gái"/>Gái
+					<br>
+					<input type="radio" class="gender" name="gender" value="khác"/>Khác
+				</div>
+				<div class="hang2 border-top ">
+					<div class="box2">
+						<!-- <label for="name"></label>
+						<input type="text" id="name" name="name">
+						<p>internet explore</p>
+						<p>FireFox</p>
+						<p>Chrome</p>
+						<p>Opera</p>
+						<p>Sofani</p> -->
+						<label for="browser"></label>
+						<!-- <input list="browsers" name="browser" id="browser"> -->
+
+							<!-- <datalist id="browsers" onchange="myFunction()"> -->
+  							<select id="browsers" onchange="myFunction()">
+							<option value="Edge">Edge</option>
+  							<option value="Firefox">Firefox</option>
+  							<option value="Chrome">Chrome</option>
+  							<option value="Opera">Opera</option>
+  							<option value="Safari">Safari</option>
+							</select>
+							<!-- </datalist> -->
+							<input type="submit" value="submit" id='btnsub'>
+							
+					</div>	
+					
+				</div>
+				<div class="hang3 border-top ">
+					<label for="name1"></label>
+					<input type="text" id="name1" name="name1">
+					<label for="name"></label>
+					<input type="text" id="name" name="name">
+					<button id="clickme">Click me</button>
+					
+					
+				</div>
+				<div class="hang4 border-top  ">
+					<div class="boxhang4">
+						<div class="boxhang42">
+							
+						<textarea id="w3review" name="w3review" rows="4" cols="25" style="margin-left:10px; margin-top:10px; height:126px;width:170px;">
+							 development technologies.
+						
+							</textarea>
+							<input type="submit" id="submit" name='submit'>
+						</div> 
+					</div>
+				</div>
+				<div class="hang5 border-right border-bottom border-top border-left">
+					
+					<select class="combo" id="combo" onchange="function666()">
+						<option value="truong" class="combobox">----</option>
+						<option value="truong1" class="combobox">One</option>
+						<option value="ngu" class="combobox">Two</option>
+						<option value="on" class="combobox">Three</option>
+					</select>
+					<input type="submit" name="submit" id="submit22">
+				</div>
+				<!-- <div class="hang11 border-left border-bottom border-right">
+					
+				</div> -->
+</div> 
+
+
+				<div class="row6">
+				<div class="hang11 border-left  border-right">
+					
+				</div>
+				<div class="hang22 ">
+					
+				</div>
+				<div class="hang33 ">
+					
+				</div>
+				<div class="hang44 ">
+					
+				</div>
+				<div class="hang55 border-left border-right">
+					
+				</div>
+				<!-- <div class="hang2">
+					<div>
+						
+					</div>	
+					
+				</div>
+				<div class="hang3">
+				</div>
+				<div class="hang4 ">
+					<div >
+						
+					</div>
+				</div>
+				<div class="hang5"> -->
+					
+				</div>
+
+				<!-- <div class="row7">
+				<div class="hang11 border-left border-bottom border-right">
+					
+				</div> -->
+				<div class="row7">
+				<div class="hang1 border-left border-bottom border-right border-top">
+					<div id="thongbao" class="boxthongbao">
+						<!-- <p>Thông báo ở đây!!!!!</p> -->
+					</div>
+				</div>
+				<div id="hang27" class="hang2">
+					
+				</div>
+				<div class="hang3">
+					
+				</div>
+				<div class="hang4 border-left border-bottom border-right border-top">
+					<div class="english">
+					<input type="checkbox" class="language" name="language" value="english" />english
+					<input type="checkbox" class="language" name="language" value="japan" />japan
+					
+					</div>
+					<div class="nut">
+						<input type="button" id="btn1" value="Go1"/>
+						<input type="button" id="btn2" value="Go2"/>
+						<input type="button" id="btn3" value="Reset"/>
+						<!-- <button>Go2</button> -->
+						<!-- <button>Reset</button> -->
+					</div>
+					
+				</div>
+
+				<!-- <div class="row7">
+					<div class="o1">
+						
+					</div> -->
+				</div>
+				
+		
+
+
+			
+			<!-- <div class="o2 xanhduong"></div>
+			<div class="o2 trang"></div>
+			<div class="o3 xanhduong"></div>
+			<div class="o1 border-left border-right"></div> -->
+			
+                <!--end row6 -->
+		<!-- <div class="row5">
+			<div class="o11 trang border-right border-left"></div>
+			<div class="o2 xanhduong"></div>
+			<div class="o2 trang"></div>
+			<div class="o3 xanhduong"></div>
+			<div class="o11 border-left border-right"></div>
+			
+
+		</div> --><!--end row6 -->
+
+		<!-- <div class="row6">
+			<div class="o1 border-right border-top border-left border-bottom1">
+				<div class="box">
+					Thông báo ở đây!
+				</div>
+			</div>
+			<div class="o2 do"></div>
+			<div class="o2 xanhnhe"></div>
+			<div class="ocuoi border-left border-top border-right border-bottom1"></div>
+			
+
+		</div> -->
+		
+		
+		
+		
+	</div>
+
+	<!-- <script type="text/javascript">
+	//su kien 1
+	var button1 = document.getElementById("btn1");
+		button1.onclick = function () {
+			var radioElements = document.getElementsByName("gender");
+              for (var i = 0; i < radioElements.length; i++){
+                     if(radioElements[i].checked=== true){
+                           alert("Bạn đã chọn giá trị là: " + radioElements[i].value);
+                     }
+              }
+
+			 
+		};
+	//su kien 2,10
+
+		var submit1=document.getElementById('submit');
+		var doo989=document.getElementsByClassName('sk2');
+		
+		submit1.onclick=function(){
+			var dk=document.getElementById('w3review').value;
+			if(dk=='image/Mandy.jpg')
+			{
+			document.getElementById('hang27').innerHTML="<img src=\'image/Mandy.jpg\' width=\'63px\' height=\'103px\'>";
+			
+		}
+			else if(dk=='add textbox')
+			{
+				var z=document.getElementsByClassName('sk2');
+				for(i=0;i<z.length;i++){
+					z[i].innerHTML='add textbox';
+				}
+			}else if(dk=='remove textbox'){
+				var z=document.getElementsByClassName('sk2');
+				for(i=0;i<z.length;i++){
+					z[i].innerHTML='';
+				}
+			}else
+			alert('bấm chuỗi ký tự mong muốn và hãy delete 5 lần thì mới được');
+			
+		};
+
+		//su kien 3,8
+		var doo=document.getElementsByClassName('sk2');
+		var click1=document.getElementById('clickme');
+		click1.onclick=function(){
+			var checkbox1=document.getElementById('name1');
+			var checkbox2=document.getElementById('name');
+				if(checkbox1.value==''|| checkbox2.value==''){
+					for(var i=0;i<doo.length;i++)
+					{
+					doo[i].style.background="red";
+					}	
+					
+			}else
+			document.getElementById("thongbao").innerHTML =checkbox1.value+' '+checkbox2.value;
+					
+		};
+		// su kien 4
+		var button2 = document.getElementById('btn2');
+		button2.onclick=function(){
+			var radioElement=document.getElementsByName('language');
+			for (var i = 0; i < radioElement.length; i++){
+                     // alert("Me here =" + radioElements[i].checked);
+                     if(radioElement[i].checked === true){
+                            // alert(radioElements[i].value);
+							document.getElementById("chucmung").innerHTML=radioElement[i].value;
+                     }
+                     // div1.style.background =( "yellow"+ radioElements[i].checked);
+              }
+				
+		};
+
+		//su kien 5
+		var button3= document.getElementById('btn3');
+		 button3.onclick= function(){
+			 var uncheck=document.getElementsByName('language');
+			 for (var i = 0; i < uncheck.length; i++){
+			 if(uncheck[i].type ==  'checkbox'){
+				uncheck[i].checked = false;
+			 }
+			}
+		 };
+
+		 //su kien 6
+		
+		var submit2=document.getElementById('submit22');
+		var background= document.getElementById('o9');
+		var combobox= document.getElementById('combobox');
+		submit2.onclick = function(){
+			var x11 = document.getElementById("combo").value;
+			if(x11=='truong1')
+			{
+			background.style.background= 'black';
+			}else{
+				background.style.background= '#FFD966';
+			}
+			
+
+		};
+		//su kien 7
+		
+		function myFunction() {
+  		var x = document.getElementById("browsers").value;
+		  alert('bạn đã thay đổi giá trị combobox là : '+x);
+		}
+
+
+		//su kien 9
+		var submitbr=document.getElementById('btnsub');
+		//  var background= document.getElementById('o9');
+		 var data= document.getElementsByClassName('browsers');
+		 	submitbr.onclick = function(){
+				alert('chọn đúng trình duyệt'+' '+Date());
+		};
+	</script> -->
+</body>
+</html>

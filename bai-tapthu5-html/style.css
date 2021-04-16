@@ -1,0 +1,421 @@
+*{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+.main{
+	width:657px;
+	height:510px;
+	/*border: 2px solid black;*/
+	background-color:white;
+	margin:auto;
+	margin-top:30px;
+}
+.row1 div.o1{
+	width:73px;
+	height:37px;
+	background-color:#9CC2E5;
+	float:left;
+}
+.row1 div.trang{
+	background-color:white;
+}
+.row2 div.o2{
+	width:145px;
+	height:78px;
+	background-color:#92D050;
+	float:left;
+}
+.row2 div.o3{
+	width:216px;
+	height:74px;
+	background-color:white;
+	float:left;
+	border:2px solid black;
+}
+.row2 div.o4{
+	width:292px;
+	height:78px;
+	background-color:#FFFF00;
+	float:left;
+}
+.row3 div.kem{
+	background-color:#FFD966;
+}
+.row3 div.o1{
+	width:71px;
+	height:35px;
+	/*background-color:#9CC2E5;*/
+	float:left;
+}
+.row3 div.o1dacbiet{
+	width:71px;
+	height:37px;
+	/*background-color:#9CC2E5;*/
+	float:left;
+}
+.row3 div.o1caodacbiet{
+	width:71px;
+	height:37px;
+	/*background-color:#9CC2E5;*/
+	float:left;
+}
+.row3 div.o1daibiet{
+	width:71px;
+	height:35px;
+	/*background-color:#9CC2E5;*/
+	float:left;
+}
+.row4 div.o4{
+	width:653px;
+	height:35px;
+	background-color:#D0CECE;
+	float:left;
+	border-top: 2px solid black;
+	/*border-bottom: 2px solid black;*/
+}
+.row5 div.o2{
+	width:145px;
+	height:39px;
+	/*background-color:#0070C0;*/
+	float:left;
+}
+.row5 div.o3{
+	width:216px;
+	height:39px;
+	/*background-color:white;*/
+	float:left;
+	/*border:2px solid black;*/
+}
+.row5 div.o1{
+	/*width:71.5px;
+	height:39px;*/
+	width:653px;
+	height:190px;
+	
+	border:2px solid black;
+	background-color:white;
+	/*border-bottom:2px solid black;*/
+
+	float:left;
+}
+.row5 div.o11{
+	width:71.5px;
+	height:37px;
+	border-top:2px solid black;
+
+	float:left;
+}
+.xanhduong{
+	background-color:#0070C0;
+}
+.border-left{
+	border-left:2px solid black;
+}
+.border-right{
+	border-right:2px solid black;
+}
+.border-top{
+	border-top:2px solid black;
+}
+.border-bottom{
+	border-bottom:2px solid black;
+}
+.border-bottom1{
+	border-bottom:1px solid black;
+}	
+/*div.row5{
+	height:80px;
+	width:657px;
+
+}*/
+
+.row6 div.o1{
+	width:291px;
+	height:97px;
+	
+	background-color:#C5E0B3;
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.row6 div.o2{
+	width:72px;
+	height:100px;
+	
+	/*background-color:red;*/
+	float:left;
+}
+.xanhnhe{
+	background-color:#A8D08D;
+}
+.do{
+	background-color:red;
+}
+.row6 div.ocuoi{
+	width:214px;
+	height:96px;
+	
+	background-color:white;
+	float:left;
+}
+/*.trang{
+	background-color:white;
+}*/
+
+/*.row6 div.o1{
+	width:73px;
+	height:37px;
+	background-color:#9CC2E5;
+	float:left;
+	
+}
+.row6 div.o1{
+	width:73px;
+	height:95px;
+	margin-left:0px;
+	float:right;
+}*/
+.row2 p{
+	font-size:15px;
+	color:black;
+	text-align:right;
+	margin-bottom:15px;
+}
+.row2 .o4 a{
+	display:block;
+	margin-bottom:15px;
+}
+.row4 p{
+	text-align:center;
+	margin-top:10px;
+}
+/*.row2 .o2 p{
+	transform: rotate(45drg);
+
+}*/
+.box{
+	width:265px;
+	height:50px;
+	background-color:#FFE599;
+	border: 1px solid black;
+	text-align:center;
+	padding-top:20px;
+
+}
+.box5{
+	height:190px;
+	width:655px;
+	border:2px solid black;
+	background-color:white;
+
+}
+.row5 .hang1{
+	height:148px;
+	width:64px;
+	border: 2px solid black;
+	float:left;
+}
+.row5 .hang2{
+	height:150px;
+	width:128px;
+	/*border: 1px solid black;*/
+	float:left;
+	background-color:#0070C0;
+}
+.row5 .hang3{
+	height:147px;
+	width:200px;
+	/*border: 1px solid black;*/
+	float:left;
+}
+.row5 .hang4{
+	height:150px;
+	width:187px;
+	/*border: 1px solid black;*/
+	float:left;
+	background-color:#0070C0;
+}
+.row5 .hang5{
+	height:148px;
+	width:70px;
+	/*border: 2px solid black;*/
+	float:left;
+}
+.row5{
+	float:left;
+}
+.hang1 input{
+	margin-top:20px;
+}
+.box2{
+	width:110px;
+	height:110px;	
+	/*border: 1px solid black;*/
+	margin-top:25px;
+	margin-left:5px;
+	background-color:white;
+	padding-top:5px;
+	padding-left:5px;
+}
+.box2 input{
+	border:1px solid black;
+	width:80px;
+	height:18px;
+	
+}
+.hang3 input{
+	border:1px solid black;
+	width:120px;
+	height:18px;
+	margin:20px 20px;
+}
+.hang3 button{
+	margin-left:20px;
+}
+/* .boxhang4{
+	width:157px;
+	height:97px;
+	background-color:white;
+	border:1px solid black;
+} */
+element.style{
+	margin-top:10px;
+	width:160px;
+	height:230px;
+}
+.hang4{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.row6 .hang11{
+	background-color:white;
+	/*border:1px solid black;*/
+	height:47px;
+	width:64px;
+	/*border: 2px solid black;*/
+	float:left;
+}
+.row6 .hang22{
+	background-color:#0070C0;
+	width:128px;
+	height:47px;
+	float:left;
+
+}
+.row6 .hang33{
+	background-color:white;
+	width:200px;
+	height:47px;
+	float:left;
+
+}
+.row6 .hang44{
+	background-color:#0070C0;
+	width:187px;
+	height:47px;
+	float:left;
+
+}
+.row6 .hang55{
+	background-color:white;
+	/*border:1px solid black;*/
+	height:47px;
+	width:70px;
+	/*border: 2px solid black;*/
+	float:left;
+}
+/*.row8 .hang11{
+	background-color:red;
+	
+	height:45px;
+	width:64px;
+	
+	float:left;
+}*/
+.row7 .hang1{
+	
+
+	background-color:#C5E0B3;
+	
+	height:100px;
+	width:320px;
+	
+	float:left;
+	display:flex;
+	/*justify-content:center;*/
+	align-items:center;
+}
+.row7 .hang2{
+	
+
+	background-color:red;
+	
+	height:104px;
+	width:62px;
+	
+	float:left;
+}
+.row7 .hang3{
+	
+
+	background-color:#A8D08D;
+	
+	height:104px;
+	width:62px;
+	
+	float:left;
+}
+.row7 .hang4 p{
+	margin-top:0px;
+}
+.row7 .hang4{
+	
+
+	background-color:white;
+	/* padding-bottom: 0px;
+	margin-bottom:0px; */
+	height:100px;
+	width:205px;
+	
+	/* float:left; */
+}
+.nut{
+	width: 200px;
+	height:20px;
+	/* margin-top:100px;
+	margin-right:50px; */
+	background-color:black;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.row7 div .english{
+	/* width:200px;
+	height:10px; */
+	margin-top:-60px;
+	margin-left:20px;
+	
+	/* margin-bottom:10px; */
+	/* background-color:black; */
+	/* float:left; */
+}
+/* .row7 input.{
+	width:200px;
+	height:50px;
+	float:left;
+} */
+.row7 .boxthongbao{
+	width:270px;
+	height:52px;
+	background-color:#FFE599;
+	border:1px solid black;
+	margin-left:5px
+	
+}
+.row7 .boxthongbao p{
+	margin-top:10px;
+	text-align:center;
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+#hinh{
+    display: block;
+    width:600px;
+    margin:auto;
+
+}
+
+#mandy.w1{
+    display: block;
+    
+    width:300px;
+    margin:auto;
+}
+#mandy.w2{
+    display: block;
+    margin:auto;
+    width:500px;
+  }
+#mandy.w3{
+    display: block;
+    margin:auto;     
+    width:800px;
+  }
+#tang{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+#change{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    border: 1px solid red;
+    cursor: pointer;
+}
